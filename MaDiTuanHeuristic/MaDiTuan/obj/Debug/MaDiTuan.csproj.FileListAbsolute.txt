@@ -1,0 +1,6 @@
+D:\code\visual studio\MaDiTuan\MaDiTuan\bin\Debug\MaDiTuan.exe.config
+D:\code\visual studio\MaDiTuan\MaDiTuan\bin\Debug\MaDiTuan.exe
+D:\code\visual studio\MaDiTuan\MaDiTuan\bin\Debug\MaDiTuan.pdb
+D:\code\visual studio\MaDiTuan\MaDiTuan\obj\Debug\MaDiTuan.exe
+D:\code\visual studio\MaDiTuan\MaDiTuan\obj\Debug\MaDiTuan.pdb
+D:\code\visual studio\MaDiTuan\MaDiTuan\obj\Debug\MaDiTuan.csprojAssemblyReference.cache
