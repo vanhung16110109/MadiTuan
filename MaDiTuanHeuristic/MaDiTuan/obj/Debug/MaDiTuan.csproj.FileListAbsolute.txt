@@ -4,3 +4,9 @@ D:\code\visual studio\MaDiTuan\MaDiTuan\bin\Debug\MaDiTuan.pdb
 D:\code\visual studio\MaDiTuan\MaDiTuan\obj\Debug\MaDiTuan.exe
 D:\code\visual studio\MaDiTuan\MaDiTuan\obj\Debug\MaDiTuan.pdb
 D:\code\visual studio\MaDiTuan\MaDiTuan\obj\Debug\MaDiTuan.csprojAssemblyReference.cache
+D:\HKI-19-20\CAU TRUC DU LIEU VA GIAI THUAT\CuoiKi\MadiTuan\MaDiTuanHeuristic\MaDiTuan\bin\Debug\MaDiTuan.exe.config
+D:\HKI-19-20\CAU TRUC DU LIEU VA GIAI THUAT\CuoiKi\MadiTuan\MaDiTuanHeuristic\MaDiTuan\obj\Debug\MaDiTuan.exe
+D:\HKI-19-20\CAU TRUC DU LIEU VA GIAI THUAT\CuoiKi\MadiTuan\MaDiTuanHeuristic\MaDiTuan\obj\Debug\MaDiTuan.pdb
+D:\HKI-19-20\CAU TRUC DU LIEU VA GIAI THUAT\CuoiKi\MadiTuan\MaDiTuanHeuristic\MaDiTuan\bin\Debug\MaDiTuan.exe
+D:\HKI-19-20\CAU TRUC DU LIEU VA GIAI THUAT\CuoiKi\MadiTuan\MaDiTuanHeuristic\MaDiTuan\bin\Debug\MaDiTuan.pdb
+D:\HKI-19-20\CAU TRUC DU LIEU VA GIAI THUAT\CuoiKi\MadiTuan\MaDiTuanHeuristic\MaDiTuan\obj\Debug\MaDiTuan.csprojResolveAssemblyReference.cache

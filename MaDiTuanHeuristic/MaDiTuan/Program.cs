@@ -91,7 +91,7 @@ namespace MaDiTuan
             }
             if(nd>=size)
             {
-                inBanCo();
+                inBanCo();            
             }
         }
     }

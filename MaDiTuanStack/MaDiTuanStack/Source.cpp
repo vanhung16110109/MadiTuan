@@ -1,7 +1,7 @@
 #include<iostream>
 
 #define SIZE 26   // kich thuoc mang 5*5+1
-#define n 5    // ban co 5*5
+#define n 5   // ban co 5*5
 
 using namespace std;
 
@@ -16,7 +16,6 @@ struct STACK
 	int A[SIZE] = { 0 };
 	int B[SIZE] = { 0 };
 	int top;
-
 };
 
 void InitStack(STACK&myStack)
@@ -79,13 +78,13 @@ void diTuan(STACK&myStack)
 				flag = true;
 				C[tempmy][i] = 1;
 				Push(myStack, xx, yy);
-				xuat(Table);
+				//xuat(Table);
 				break;
 			}
 		}
 		if (dem == SIZE)
 		{
-			xuat(Table);
+			//xuat(Table);
 			break;
 		}
 		if (flag == false)
