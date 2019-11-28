@@ -44,6 +44,7 @@ void xuat(int A[][n])
 		for (int j = 0; j < n; j++)
 			cout << "\t" << A[i][j];
 		cout << endl;
+		cout << endl;
 	}
 	cout << endl;
 	cout << endl;
@@ -84,7 +85,7 @@ void diTuan(STACK&myStack)
 		}
 		if (dem == SIZE)
 		{
-			//xuat(Table);
+			xuat(Table);
 			break;
 		}
 		if (flag == false)
@@ -110,12 +111,15 @@ int main()
 	STACK Horse;
 	InitStack(Horse);
 	int x, y;
-	cin >> x;
-	cin >> y;
-	Push(Horse, x, y);
+	cout << endl;
+	cout << "		Nhap vi tri hang: ";
+	cin >> x; cout << endl;
+	cout << "		Nhap vi tri cot: ";
+	cin >> y; cout << endl;
+	Push(Horse, x - 1, y - 1);
 	diTuan(Horse);
 	cout << endl;
-	xuat(Table);
+	//xuat(Table);
 	system("pause");
 	return 0;
 }
