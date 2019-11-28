@@ -40,6 +40,7 @@
             // 
             // pnlBanCo
             // 
+            this.pnlBanCo.AutoSize = true;
             this.pnlBanCo.Location = new System.Drawing.Point(13, 13);
             this.pnlBanCo.Margin = new System.Windows.Forms.Padding(4);
             this.pnlBanCo.Name = "pnlBanCo";
@@ -48,6 +49,7 @@
             // 
             // panel1
             // 
+            this.panel1.AutoSize = true;
             this.panel1.Controls.Add(this.btnUndo);
             this.panel1.Controls.Add(this.btnReset);
             this.panel1.Controls.Add(this.btnKhoitao);
@@ -110,6 +112,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(945, 535);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlBanCo);
@@ -122,6 +125,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

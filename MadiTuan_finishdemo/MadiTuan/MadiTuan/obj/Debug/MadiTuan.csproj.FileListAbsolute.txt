@@ -44,3 +44,6 @@ F:\MadiTuan\MadiTuan\MadiTuan\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.d
 F:\MadiTuan\MadiTuan\MadiTuan\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
 F:\MadiTuan\MadiTuan\MadiTuan\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
 F:\MadiTuan\MadiTuan\MadiTuan\obj\Debug\MadiTuan.frmMain.resources
+D:\HKI-19-20\CAU TRUC DU LIEU VA GIAI THUAT\CuoiKi\MadiTuan\MadiTuan_finishdemo\MadiTuan\MadiTuan\bin\Debug\MadiTuan.exe.config
+D:\HKI-19-20\CAU TRUC DU LIEU VA GIAI THUAT\CuoiKi\MadiTuan\MadiTuan_finishdemo\MadiTuan\MadiTuan\obj\Debug\MadiTuan.exe
+D:\HKI-19-20\CAU TRUC DU LIEU VA GIAI THUAT\CuoiKi\MadiTuan\MadiTuan_finishdemo\MadiTuan\MadiTuan\obj\Debug\MadiTuan.pdb

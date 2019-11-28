@@ -18,19 +18,19 @@ struct STACK
 	int top;
 };
 
-void InitStack(STACK&myStack)
+void InitStack(STACK&myStack) // tao ngan xep rong
 {
 	myStack.top = -1;
 }
 
-int IsEmptyStack(STACK&myStack)
+int IsEmptyStack(STACK&myStack)	// kiem tra ngan xep rong
 {
 	if (myStack.top == -1)
 		return 1;
 	return 0;
 }
 
-int IsFullStack(STACK&myStack)
+int IsFullStack(STACK&myStack)  // kiem tra ngan xep day hay khong
 {
 	if (myStack.top == SIZE - 1)
 		return 1;
@@ -116,10 +116,24 @@ int main()
 	cin >> x; cout << endl;
 	cout << "		Nhap vi tri cot: ";
 	cin >> y; cout << endl;
-	Push(Horse, x - 1, y - 1);
-	diTuan(Horse);
-	cout << endl;
-	//xuat(Table);
+	//Push(Horse, x - 1, y - 1);
+	//diTuan(Horse);
+	//cout << endl;
+	////xuat(Table);
+
+	int a = 1;
+	for (int i = 0; i < 8; i++)
+	{
+		int xx = 2 + X[i];
+		int yy = 2 + Y[i];
+		if (xx >= 0 && xx < n && yy >= 0 && yy < n && Table[xx][yy] == 0)
+		{
+			Table[xx][yy] = a;
+			a++;
+		}
+	}
+	xuat(Table);
+
 	system("pause");
 	return 0;
 }

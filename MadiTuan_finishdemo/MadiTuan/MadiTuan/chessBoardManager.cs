@@ -204,7 +204,7 @@ namespace MadiTuan
         }
         private void Endgame()
         {                        
-            MessageBox.Show("Ban da chien thang");
+            MessageBox.Show("Bạn đã chiến thắng!! Thật là thiên tài ^^", "Chúc mừng", MessageBoxButtons.OK, MessageBoxIcon.None);
         }
         private bool isEndGame(Button btn)
         {
@@ -330,7 +330,7 @@ namespace MadiTuan
 
             if(!kiemtranuocdiquanMa(btn))
             {
-                MessageBox.Show("Khong tim thay vi tri quan ma tiep theo", "Thong bao", MessageBoxButtons.OKCancel,MessageBoxIcon.Stop);
+                MessageBox.Show("Không tìm thấy vị trí quân Mã tiếp theo!! Bạn đã thua cuộc ^^", "Thông báo", MessageBoxButtons.OKCancel,MessageBoxIcon.Stop);
                 stopGame();          
             }                    
         }
