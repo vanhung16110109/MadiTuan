@@ -346,7 +346,7 @@ namespace MadiTuan
                 }
             }
         }
-        public void timViTri()
+        public void timViTri()  //tim vi tri quan ma, sau khi undo
         {
             playInfo oldPoint = PlaytimeLine.Peek();
             int i = 0;

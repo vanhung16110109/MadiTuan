@@ -1,12 +1,14 @@
 #include<iostream>
 
-#define SIZE 26   // kich thuoc mang 5*5+1
-#define n 5   // ban co 5*5
+#define SIZE 65   // kich thuoc mang 5*5+1
+#define n 8   // ban co 5*5
 
 using namespace std;
 
 int X[8] = { 1,2,2,1,-1,-2,-2,-1 };
 int Y[8] = { -2,-1,1,2,2,1,-1,-2 };
+//int X[8] = { -2, -1, 1, 2, 2, 1, -1, -2 };
+//int Y[8] = { 1, 2, 2, 1, -1, -2, -2, -1 };
 int Table[n][n] = { 0 };
 int dem = 1;
 int C[SIZE][n] = { 0 };
@@ -69,7 +71,7 @@ void diTuan(STACK&myStack)
 	while (dem <= SIZE)
 	{
 		int tempmy = myStack.top;
-		int flag = false;
+		bool flag = false;
 		for (int i = 0; i < 8; i++)
 		{
 			int xx = myStack.A[tempmy] + X[i];
@@ -90,8 +92,6 @@ void diTuan(STACK&myStack)
 		}
 		if (flag == false)
 		{
-			/*int dong = myStack.A[tempmy];
-			int cot = myStack.B[tempmy];*/
 			Table[myStack.A[tempmy]][myStack.B[tempmy]] = 0;
 			for (int j = 0; j < 8; j++)
 				C[tempmy + 1][j] = 0;
@@ -116,23 +116,10 @@ int main()
 	cin >> x; cout << endl;
 	cout << "		Nhap vi tri cot: ";
 	cin >> y; cout << endl;
-	//Push(Horse, x - 1, y - 1);
-	//diTuan(Horse);
-	//cout << endl;
-	////xuat(Table);
-
-	int a = 1;
-	for (int i = 0; i < 8; i++)
-	{
-		int xx = 2 + X[i];
-		int yy = 2 + Y[i];
-		if (xx >= 0 && xx < n && yy >= 0 && yy < n && Table[xx][yy] == 0)
-		{
-			Table[xx][yy] = a;
-			a++;
-		}
-	}
-	xuat(Table);
+	Push(Horse, x - 1, y - 1);
+	diTuan(Horse);
+	cout << endl;
+	//xuat(Table);
 
 	system("pause");
 	return 0;
